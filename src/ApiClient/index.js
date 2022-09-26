@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.REACT_APP_API_DOMAIN ? process.env.REACT_APP_API_DOMAIN : 'http://localhost:8080/testApp/';
+const BASE_URL = process.env.REACT_APP_API_DOMAIN ? process.env.REACT_APP_API_DOMAIN : 'https://rjj-event-application.herokuapp.com/testApp/';
 
 const ApiClient=()=> {
     let axiosInstance;
